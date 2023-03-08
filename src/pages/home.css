@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(211, 200, 200);
+    /* background-image:"turf3.jpeg"; */
+}
+
+
+.home .navigation{
+    list-style-type: none;
+    margin-top: 40px;
+}
+
+.navi .nav {
+    color:rgb(98, 229, 239);
+    text-decoration:none;
+}
+.home .navigation li {
+    font-variant: small-caps;
+    font-size: 20px;
+    font-weight:200px;
+    display:inline;
+    padding:20px;
+    font-family:Copperplate, Papyrus, fantasy;
+    
+
+
+}
+.nav:hover{
+    color:white;
+    cursor: pointer;
+}
+.home .turf{
+    height:90vh;
+    width:50%;
+    float:right;
+    opacity:0.8;
+    object-fit:contain;
+}
+.home h1{
+    padding:200px 10px 0px 100px;
+    font-size:25px;
+    color:rgb(255, 255, 255);
+    font-family: Copperplate, Papyrus, fantasy;
+}
+.home h2{
+    font-variant: small-caps;
+    padding-left: 10px;
+    font-size:50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.home .book {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-left:200px;
+    color:black;
+    background-color:rgb(218, 235, 109);
+    border-radius: 20px;
+    height:5vh;
+    width:15vw;
+    cursor: pointer;
+    font-weight: lighter;
+}
+.order:hover{
+    color:grey;
+    background-color: white;
+}
+p{
+    padding-top:80px;
+    padding-left: 210px;
+    color:rgb(201, 75, 37);
+    font-size: 20px;
+}
